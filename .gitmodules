@@ -1,0 +1,24 @@
+[submodule "coppersmith"]
+	path = coppersmith
+	url = https://github.com/kionactf/coppersmith.git
+[submodule "coppersmith_defund"]
+	path = coppersmith_defund
+	url = https://github.com/defund/coppersmith.git
+[submodule "crypto-detection"]
+	path = crypto-detection
+	url = https://github.com/kionactf/crypto-detection.git
+[submodule "CTF_Files"]
+	path = CTF_Files
+	url = https://github.com/Connor-McCartney/CTF_Files.git
+[submodule "enigma_attacks"]
+	path = enigma_attacks
+	url = https://github.com/kionactf/enigma_attacks.git
+[submodule "fpylll"]
+	path = fpylll
+	url = https://github.com/fplll/fpylll.git
+[submodule "mfkey32v2"]
+	path = mfkey32v2
+	url = https://github.com/equipter/mfkey32v2.git
+[submodule "flatter"]
+	path = flatter
+	url = https://github.com/keeganryan/flatter.git
