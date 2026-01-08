@@ -25,3 +25,399 @@
 [submodule "Castryck-Decru-SageMath"]
 	path = Castryck-Decru-SageMath
 	url = https://github.com/GiacomoPope/Castryck-Decru-SageMath.git
+
+
+# =========================
+# CAS / Computer Algebra
+# =========================
+[submodule "tools/cas/sagemath"]
+	path = tools/cas/sagemath
+	url = https://github.com/sagemath/sage.git
+
+[submodule "tools/cas/sympy"]
+	path = tools/cas/sympy
+	url = https://github.com/sympy/sympy.git
+
+[submodule "tools/cas/gap"]
+	path = tools/cas/gap
+	url = https://github.com/gap-system/gap.git
+
+[submodule "tools/cas/singular"]
+	path = tools/cas/singular
+	url = https://github.com/Singular/Singular.git
+
+[submodule "tools/cas/pari"]
+	path = tools/cas/pari
+	url = https://pari.math.u-bordeaux.fr/git/pari.git
+
+[submodule "tools/cas/gp2c"]
+	path = tools/cas/gp2c
+	url = https://pari.math.u-bordeaux.fr/git/gp2c.git
+
+
+# =========================
+# Number theory / Exact arithmetic / Linear algebra
+# =========================
+[submodule "tools/nt/flint"]
+	path = tools/nt/flint
+	url = https://github.com/flintlib/flint.git
+
+[submodule "tools/nt/arb"]
+	path = tools/nt/arb
+	url = https://github.com/fredrik-johansson/arb.git
+
+[submodule "tools/nt/ntl"]
+	path = tools/nt/ntl
+	url = https://github.com/libntl/ntl.git
+
+[submodule "tools/la/linbox"]
+	path = tools/la/linbox
+	url = https://github.com/linbox-team/linbox.git
+
+[submodule "tools/la/m4ri"]
+	path = tools/la/m4ri
+	url = https://github.com/malb/m4ri.git
+
+[submodule "tools/la/m4rie"]
+	path = tools/la/m4rie
+	url = https://github.com/malb/m4rie.git
+
+
+# =========================
+# Lattices (LLL/BKZ/Sieve)
+# =========================
+[submodule "tools/lattice/fplll"]
+	path = tools/lattice/fplll
+	url = https://github.com/fplll/fplll.git
+
+[submodule "tools/lattice/fpylll"]
+	path = tools/lattice/fpylll
+	url = https://github.com/fplll/fpylll.git
+
+[submodule "tools/lattice/g6k"]
+	path = tools/lattice/g6k
+	url = https://github.com/fplll/g6k.git
+
+[submodule "tools/lattice/strategizer"]
+	path = tools/lattice/strategizer
+	url = https://github.com/fplll/strategizer.git
+
+
+# =========================
+# Factoring / NFS ecosystem
+# =========================
+[submodule "tools/factor/cado-nfs"]
+	path = tools/factor/cado-nfs
+	url = https://gitlab.inria.fr/cado-nfs/cado-nfs.git
+
+[submodule "tools/factor/gmp-ecm"]
+	path = tools/factor/gmp-ecm
+	url = https://github.com/sethtroisi/gmp-ecm.git
+
+[submodule "tools/factor/msieve"]
+	path = tools/factor/msieve
+	url = https://github.com/radii/msieve.git
+
+[submodule "tools/factor/yafu"]
+	path = tools/factor/yafu
+	url = https://github.com/bbuhrow/yafu.git
+
+
+# =========================
+# Fully Homomorphic Encryption (FHE)
+# =========================
+[submodule "tools/fhe/seal"]
+	path = tools/fhe/seal
+	url = https://github.com/microsoft/SEAL.git
+
+[submodule "tools/fhe/openfhe"]
+	path = tools/fhe/openfhe
+	url = https://github.com/openfheorg/openfhe-development.git
+
+[submodule "tools/fhe/lattigo"]
+	path = tools/fhe/lattigo
+	url = https://github.com/tuneinsight/lattigo.git
+
+[submodule "tools/fhe/tfhe-rs"]
+	path = tools/fhe/tfhe-rs
+	url = https://github.com/zama-ai/tfhe-rs.git
+
+[submodule "tools/fhe/concrete"]
+	path = tools/fhe/concrete
+	url = https://github.com/zama-ai/concrete.git
+
+[submodule "tools/fhe/concrete-ml"]
+	path = tools/fhe/concrete-ml
+	url = https://github.com/zama-ai/concrete-ml.git
+
+
+# =========================
+# Zero-Knowledge Proofs (ZK)
+# =========================
+[submodule "tools/zk/libsnark"]
+	path = tools/zk/libsnark
+	url = https://github.com/scipr-lab/libsnark.git
+
+[submodule "tools/zk/libff"]
+	path = tools/zk/libff
+	url = https://github.com/scipr-lab/libff.git
+
+[submodule "tools/zk/libiop"]
+	path = tools/zk/libiop
+	url = https://github.com/scipr-lab/libiop.git
+
+[submodule "tools/zk/halo2"]
+	path = tools/zk/halo2
+	url = https://github.com/zcash/halo2.git
+
+[submodule "tools/zk/plonky2"]
+	path = tools/zk/plonky2
+	url = https://github.com/0xPolygonZero/plonky2.git
+
+[submodule "tools/zk/circom"]
+	path = tools/zk/circom
+	url = https://github.com/iden3/circom.git
+
+[submodule "tools/zk/snarkjs"]
+	path = tools/zk/snarkjs
+	url = https://github.com/iden3/snarkjs.git
+
+[submodule "tools/zk/circomlib"]
+	path = tools/zk/circomlib
+	url = https://github.com/iden3/circomlib.git
+
+
+# =========================
+# Quantum computing / simulation / QEC
+# =========================
+[submodule "tools/quantum/qiskit"]
+	path = tools/quantum/qiskit
+	url = https://github.com/Qiskit/qiskit.git
+
+[submodule "tools/quantum/cirq"]
+	path = tools/quantum/cirq
+	url = https://github.com/quantumlib/Cirq.git
+
+[submodule "tools/quantum/pennylane"]
+	path = tools/quantum/pennylane
+	url = https://github.com/PennyLaneAI/pennylane.git
+
+[submodule "tools/quantum/qutip"]
+	path = tools/quantum/qutip
+	url = https://github.com/qutip/qutip.git
+
+[submodule "tools/quantum/projectq"]
+	path = tools/quantum/projectq
+	url = https://github.com/ProjectQ-Framework/ProjectQ.git
+
+[submodule "tools/quantum/tesseract-decoder"]
+	path = tools/quantum/tesseract-decoder
+	url = https://github.com/quantumlib/tesseract-decoder.git
+
+
+# =========================
+# Post-Quantum / PQC
+# =========================
+[submodule "tools/pqc/liboqs"]
+	path = tools/pqc/liboqs
+	url = https://github.com/open-quantum-safe/liboqs.git
+
+[submodule "tools/pqc/oqs-provider"]
+	path = tools/pqc/oqs-provider
+	url = https://github.com/open-quantum-safe/oqs-provider.git
+
+[submodule "tools/pqc/pqclean"]
+	path = tools/pqc/pqclean
+	url = https://github.com/PQClean/PQClean.git
+
+[submodule "tools/pqc/pqm4"]
+	path = tools/pqc/pqm4
+	url = https://github.com/mupq/pqm4.git
+
+[submodule "tools/pqc/circl"]
+	path = tools/pqc/circl
+	url = https://github.com/cloudflare/circl.git
+
+[submodule "tools/pqc/pqcrypto"]
+	path = tools/pqc/pqcrypto
+	url = https://github.com/rustpq/pqcrypto.git
+
+[submodule "tools/pqc/liboqs-rust"]
+	path = tools/pqc/liboqs-rust
+	url = https://github.com/open-quantum-safe/liboqs-rust.git
+
+[submodule "tools/pqc/rustls-post-quantum"]
+	path = tools/pqc/rustls-post-quantum
+	url = https://github.com/ctz/rustls-post-quantum.git
+
+[submodule "tools/pqc/bc-java"]
+	path = tools/pqc/bc-java
+	url = https://github.com/bcgit/bc-java.git
+
+[submodule "lists/awesome-post-quantum"]
+	path = lists/awesome-post-quantum
+	url = https://github.com/veorq/awesome-post-quantum.git
+
+
+# =========================
+# CAS / Research-grade algebra systems (Julia ecosystem + AG)
+# =========================
+[submodule "tools/cas/oscar"]
+	path = tools/cas/oscar
+	url = https://github.com/oscar-system/Oscar.jl.git
+
+[submodule "tools/cas/nemo"]
+	path = tools/cas/nemo
+	url = https://github.com/Nemocas/Nemo.jl.git
+
+[submodule "tools/cas/abstractalgebra"]
+	path = tools/cas/abstractalgebra
+	url = https://github.com/Nemocas/AbstractAlgebra.jl.git
+
+[submodule "tools/cas/hecke"]
+	path = tools/cas/hecke
+	url = https://github.com/thofma/Hecke.jl.git
+
+[submodule "tools/cas/macaulay2"]
+	path = tools/cas/macaulay2
+	url = https://github.com/Macaulay2/M2.git
+
+
+# =========================
+# Polyhedral / Tropical / Combinatorics
+# =========================
+[submodule "tools/geometry/polymake"]
+	path = tools/geometry/polymake
+	url = https://github.com/polymake/polymake.git
+
+
+# =========================
+# SMT / Automated theorem proving
+# =========================
+[submodule "tools/smt/z3"]
+	path = tools/smt/z3
+	url = https://github.com/Z3Prover/z3.git
+
+[submodule "tools/smt/cvc5"]
+	path = tools/smt/cvc5
+	url = https://github.com/cvc5/cvc5.git
+
+
+# =========================
+# Proof assistants / Formal math
+# =========================
+[submodule "tools/proof/lean4-mathlib"]
+	path = tools/proof/lean4-mathlib
+	url = https://github.com/leanprover-community/mathlib4.git
+
+[submodule "tools/proof/rocq"]
+	path = tools/proof/rocq
+	url = https://github.com/rocq-prover/rocq.git
+
+[submodule "tools/proof/fstar"]
+	path = tools/proof/fstar
+	url = https://github.com/FStarLang/FStar.git
+
+[submodule "tools/proof/isabelle"]
+	path = tools/proof/isabelle
+	url = https://github.com/isabelle-prover/mirror-isabelle.git
+
+
+# =========================
+# Crypto proof systems / Verified implementations
+# =========================
+[submodule "tools/crypto-proof/easycrypt"]
+	path = tools/crypto-proof/easycrypt
+	url = https://github.com/EasyCrypt/easycrypt.git
+
+[submodule "tools/crypto-proof/cryptoline"]
+	path = tools/crypto-proof/cryptoline
+	url = https://github.com/fmlab-iis/cryptoline.git
+
+[submodule "tools/crypto-proof/jasmin"]
+	path = tools/crypto-proof/jasmin
+	url = https://github.com/jasmin-lang/jasmin.git
+
+[submodule "tools/crypto-proof/fiat-crypto"]
+	path = tools/crypto-proof/fiat-crypto
+	url = https://github.com/mit-plv/fiat-crypto.git
+
+[submodule "tools/crypto-proof/hacl-star"]
+	path = tools/crypto-proof/hacl-star
+	url = https://github.com/hacl-star/hacl-star.git
+
+
+# =========================
+# Protocol verification (symbolic/computational)
+# =========================
+[submodule "tools/protocol/tamarin"]
+	path = tools/protocol/tamarin
+	url = https://github.com/tamarin-prover/tamarin-prover.git
+
+[submodule "tools/protocol/proverif"]
+	path = tools/protocol/proverif
+	url = https://gitlab.inria.fr/bblanche/proverif.git
+
+[submodule "tools/protocol/cryptoverif"]
+	path = tools/protocol/cryptoverif
+	url = https://gitlab.inria.fr/bblanche/CryptoVerif.git
+
+
+# =========================
+# Lattice cryptanalysis / Parameter estimation
+# =========================
+[submodule "tools/lattice/lattice-estimator"]
+	path = tools/lattice/lattice-estimator
+	url = https://github.com/malb/lattice-estimator.git
+
+
+# =========================
+# MPC / Secure computation
+# =========================
+[submodule "tools/mpc/mp-spdz"]
+	path = tools/mpc/mp-spdz
+	url = https://github.com/data61/MP-SPDZ.git
+
+[submodule "tools/mpc/emp-tool"]
+	path = tools/mpc/emp-tool
+	url = https://github.com/emp-toolkit/emp-tool.git
+
+[submodule "tools/mpc/aby"]
+	path = tools/mpc/aby
+	url = https://github.com/encryptogroup/ABY.git
+
+
+# =========================
+# Modern ZK ecosystems
+# =========================
+[submodule "tools/zk/arkworks"]
+	path = tools/zk/arkworks
+	url = https://github.com/arkworks-rs/.github.git
+
+[submodule "tools/zk/gnark"]
+	path = tools/zk/gnark
+	url = https://github.com/ConsenSys/gnark.git
+
+[submodule "tools/zk/cairo"]
+	path = tools/zk/cairo
+	url = https://github.com/starkware-libs/cairo.git
+
+[submodule "tools/zk/risc0"]
+	path = tools/zk/risc0
+	url = https://github.com/risc0/risc0.git
+
+
+# =========================
+# Research datasets / reference systems
+# =========================
+[submodule "tools/nt/lmfdb"]
+	path = tools/nt/lmfdb
+	url = https://github.com/LMFDB/lmfdb.git
+
+
+# =========================
+# Meta-lists
+# =========================
+[submodule "lists/awesome-cryptography"]
+	path = lists/awesome-cryptography
+	url = https://github.com/sobolevn/awesome-cryptography.git
