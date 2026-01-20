@@ -22,6 +22,9 @@
 [submodule "flatter"]
 	path = flatter
 	url = https://github.com/keeganryan/flatter.git
+[submodule "cuso"]
+	path = cuso
+	url = https://github.com/keeganryan/cuso.git
 [submodule "Castryck-Decru-SageMath"]
 	path = Castryck-Decru-SageMath
 	url = https://github.com/GiacomoPope/Castryck-Decru-SageMath.git
