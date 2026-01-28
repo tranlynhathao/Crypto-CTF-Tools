@@ -424,3 +424,6 @@
 [submodule "lists/awesome-cryptography"]
 	path = lists/awesome-cryptography
 	url = https://github.com/sobolevn/awesome-cryptography.git
+[submodule "cryptopp"]
+	path = cryptopp
+	url = https://github.com/weidai11/cryptopp.git
